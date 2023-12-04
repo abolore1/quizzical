@@ -1,0 +1,68 @@
+
+
+{
+  "response_code": 0,
+  "results": [
+      {   "id": 1,  
+          "category": "Science: Computers",
+          "type": "multiple",
+          "difficulty": "medium",
+          "question": "In programming, the ternary operator is mostly defined with what symbol(s)?",
+          "correct_answer": "?:",
+          "incorrect_answers": [
+              "??",
+              "if then",
+              "?"
+          ]
+      },
+      {   "id": 2,  
+          "category": "Science: Computers",
+          "type": "multiple",
+          "difficulty": "medium",
+          "question": "Which of these programming languages is a low-level language?",
+          "correct_answer": "Assembly",
+          "incorrect_answers": [
+              "Python",
+              "C#",
+              "Pascal"
+          ]
+      },
+      {   "id": 3,  
+          "category": "Science: Computers",
+          "type": "multiple",
+          "difficulty": "medium",
+          "question": ".rs is the top-level domain for what country?",
+          "correct_answer": "Serbia",
+          "incorrect_answers": [
+              "Romania",
+              "Russia",
+              "Rwanda"
+          ]
+      },
+      {   "id": 4,   
+          "category": "Science: Computers",
+          "type": "multiple",
+          "difficulty": "medium",
+          "question": "What does the term GPU stand for?",
+          "correct_answer": "Graphics Processing Unit",
+          "incorrect_answers": [
+              "Gaming Processor Unit",
+              "Graphite Producing Unit",
+              "Graphical Proprietary Unit"
+              
+          ]
+      },
+      {   "id": 5,   
+          "category": "Science: Computers",
+          "type": "multiple",
+          "difficulty": "medium",
+          "question": "When did the online streaming service &quot;Mixer&quot; launch?",
+          "correct_answer": "2016",
+          "incorrect_answers": [
+              "2013",
+              "2009",
+              "2011"
+          ]
+      }
+  ]
+}
