@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { Home } from './components/Home'
 import { Questions } from './components/Questions'
@@ -15,12 +15,20 @@ function App() {
     setStartQuiz(true)
   }
 
- const callback =   useCallback(()=>{
-       setTimeout(()=>  {
-        console.log('hello')
-        setCheckBtnText(true)},3000)
-  },[checkBtnText])
-callback();
+ useEffect(()=>{
+  let callback
+   callback =  setTimeout(()=>  {
+     console.log('hello')
+     setCheckBtnText(true)},3000)
+
+
+ return function() {
+   clearTimeout(callback)
+   console.log('Cleanup!');
+ }
+
+},[checkBtnText])
+
 
   const handleCheck = () => {
 
